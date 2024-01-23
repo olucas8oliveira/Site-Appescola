@@ -1,0 +1,35 @@
+
+body{
+margin: 30px;
+    
+}
+.bem_vindo{
+
+}
+.container{
+    min-width: 320px
+}
+.boletim{ 
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.Disciplina{
+    width: 60%;
+    
+}
+.Nota{
+    width: 20%;
+   
+}
+.Faltas{
+    width: 20%;
+    
+  
+}
+.box{
+    width: 100%;
+    border: solid;
+    border-radius: 5px;
+}
