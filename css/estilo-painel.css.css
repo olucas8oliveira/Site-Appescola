@@ -1,0 +1,38 @@
+.topo{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+   
+    display: flex;
+}
+.sair{
+    width: auto;
+    
+}
+.exit{
+    width: 50px;
+    
+}
+.opc{
+    width: auto;
+    
+}
+img{
+    width: 50px;
+}
+.logo{
+    width: auto;
+    text-align: center;
+    
+}
+li{padding: 1px;
+}
+body{
+  
+    margin: 0 auto;
+}
