@@ -18,4 +18,12 @@
         display: flex;
         justify-content: space-between;
     }
+    #conteudo-picuser{
+        width: 100%;
+        background-image: url(".imagens/background-fotousuário.png");
+    }
+    .pic_user{
+        width: 100%;
+        border-radius: 30px;
+    }
 }
