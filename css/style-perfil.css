@@ -1,0 +1,21 @@
+@media screen and (min-width:320px) and (max-width:576px) {
+    body{
+        margin: 0;
+    }
+    .conteudo_perfil{
+        max-width: 320px;
+    }
+    .menu_perfil{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu_perfil a img{
+        width: 40px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+    .conteudo-menu_perfil{
+        display: flex;
+        justify-content: space-between;
+    }
+}
