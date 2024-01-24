@@ -1,0 +1,109 @@
+html{
+margin:0 auto;
+}
+
+
+body{
+    margin: 30px;
+        
+    }
+    .container{
+        min-width: 320px
+    }
+    .lista{ 
+        display: flex;
+        justify-content: space-between;
+        
+       
+    }
+    .Disciplina{
+        width: 60%;
+        
+    }
+    .Nota{
+        width: 20%;
+       
+    }
+    .Faltas{
+        width: 20%;
+        
+      
+    }
+    .boletim{
+        width: 100%;
+        border-bottom: solid;
+    }
+    .baixa{
+    color:red;
+    }
+    .t1{
+    font-weight: bold;
+    }
+    .thf{
+        border: solid;
+        background-color:gold;
+    }
+    .thf05{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .conteiner{
+        width: 100%;
+      }
+        .menu{
+            min-width: 50px;
+            min-height: 50px;
+            margin: 5px 0;
+            
+        }
+        .menu_principal{
+            display: flex;
+            justify-content: space-between;
+            background-color: #f0f0f0;
+            position: fixed;
+            bottom: 0;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .btn{
+          text-decoration: none;
+          border-radius: 5px;
+          padding: 10px;
+          transition:.5s ease;
+        }
+        .btn :hover{
+          transform: scale(0.5);
+        }
+        .slider{
+            overflow: hidden;
+        
+        }
+        .slider > .slider-content{
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+            transition: all 500ms ease;
+        
+        }
+        
+        .slider > .slider-content > .slider-item {
+            flex: 0 0 auto;
+            width: 100%;
+            font-weight:bold;
+        }
+        
+        .slider > input:nth-child(1):checked ~ .slider-content{
+            transform: translateX(0%);
+        }
+        
+        .slider > input:nth-child(2):checked ~ .slider-content{
+            transform: translateX(-100%);
+        }
+        .slider > input:nth-child(3):checked ~ .slider-content{
+            transform: translateX(-200%);
+        }
+        
+        .slider > input:nth-child(4):checked ~ .slider-content{
+            transform: translateX(-300%);
+        }
