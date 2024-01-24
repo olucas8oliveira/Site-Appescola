@@ -8,6 +8,9 @@
     .menu_perfil{
         display: flex;
         justify-content: space-between;
+        background-color: #9370DB;
+        border: 1px solid transparent;
+        border-radius: 5px;
     }
     .menu_perfil a img{
         width: 40px;
@@ -18,12 +21,3 @@
         display: flex;
         justify-content: space-between;
     }
-    #conteudo-picuser{
-        width: 100%;
-        background-image: url(".imagens/background-fotousuário.png");
-    }
-    .pic_user img{
-        width: 100%;
-        border-radius: 30px;
-    }
-}
