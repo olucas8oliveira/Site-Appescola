@@ -22,7 +22,7 @@
         width: 100%;
         background-image: url(".imagens/background-fotousuário.png");
     }
-    .pic_user{
+    .pic_user img{
         width: 100%;
         border-radius: 30px;
     }
