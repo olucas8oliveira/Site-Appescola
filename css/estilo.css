@@ -61,18 +61,16 @@ html{
   font-family: sans-serif;
 }
 .container{
-      width: auto;
       display: flex;
       flex-direction: column;
       background-color: white;    
 }
 .box{
-      width: auto;
       flex-direction: column;
       align-items: center;
 }
 #biblioteca{
-width: 600px;
+
 }
 .banner{
   width: 200px;
