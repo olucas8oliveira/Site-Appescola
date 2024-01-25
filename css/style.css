@@ -125,6 +125,10 @@ body{
     justify-content: center;
     width: 360px;
 }
+.button-atividades {
+    margin: 20px auto;
+    margin-top: 200px;
+}
 .btn{
     margin: 15px auto;
     padding: 6px;
