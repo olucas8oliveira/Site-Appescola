@@ -1,11 +1,44 @@
+
 html{
 margin:0 auto;
 }
 
-
-body{
+.body{
     margin:30px;
-        
+    }
+    .menu_perfil{
+        min-width: 320px;
+        width: 100%;
+        top:0;
+        position: relative !important;
+        display: flex;
+        justify-content: space-between;
+        background-color: #87CEEB;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        border-radius: 3px;
+    }
+    .conteudo-menu_perfil{
+    padding-right:15px;
+    }
+    .menu_perfil a img{
+        width: 30px;
+        margin-top: 8px;
+        margin-top: 12px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .menu_perfil{
+        min-width: 320px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        background-color: #87CEEB;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        border-radius: 3px;
     }
     .container{
         min-width: 320px
@@ -117,3 +150,4 @@ body{
         .slider > input:nth-child(4):checked ~ .slider-content{
             transform: translateX(-300%);
         }
+       
