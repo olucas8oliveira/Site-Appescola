@@ -125,6 +125,50 @@ body{
     justify-content: center;
     width: 360px;
 }
+.button-atividades {
+    margin: 20px auto;
+    margin-top: 200px;
+}
+
+.botao-boletim {
+    display: flex;
+    padding: 32px 64px;
+    margin: 20px auto;
+    border: none;
+    font-size: 20px;
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 56, 155);
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.botao-boletim:hover {
+    padding: 30px 70px;
+    background-color: gray;
+}
+ .botao-biblioteca {
+    display: flex;
+    padding: 32px 64px;
+    margin: 20px auto;
+    border: none;
+    font-size: 20px;
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 56, 155);
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+ }
+ .botao-biblioteca:hover {
+    padding: 30px 70px;
+    background-color: gray;
+}
+
 .btn{
     margin: 15px auto;
     padding: 6px;
