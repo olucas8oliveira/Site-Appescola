@@ -58,7 +58,7 @@
         margin: 0 !important;
     }
     .btn_editarperfil-user{
-        margin: 15px 0 20px 25px;
+        margin: 15px 0 20px;
         padding: 7px;
         border: 1px solid transparent;
         border-radius: 10px;
@@ -70,4 +70,28 @@
         background-color: #D2B48C;
         display: flex;
     }
+    .conteiner{
+        width: 100%;
+        margin-top: 14rem;
+      }
+        .menu{
+            min-width: 50px;
+            min-height: 50px;
+        }
+        .menu_principal{
+            display: flex;
+            justify-content: space-between;
+            background-color: #f0f0f0;
+            bottom: 0;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .btn{
+          text-decoration: none;
+          border-radius: 5px;
+          transition:.5s ease;
+        }
+        .btn :hover{
+          transform: scale(0.5);
+        }
 }
