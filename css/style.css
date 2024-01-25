@@ -253,30 +253,35 @@ body{
 
 /* MENU */
 
-  .container{
-      width: 100%;
-    }
-      .menu{
-          min-width: 50px;
-          min-height: 50px;
-          margin: 5px 0;
-          
-      }
-      .menu_principal{
-          display: flex;
-          justify-content: space-between;
-          background-color: #f0f0f0;
-          position: fixed;
-          bottom: 0;
-          justify-content: space-around;
-          width: 100%;
-      }
-      .btn{
-        text-decoration: none;
-        border-radius: 5px;
-        padding: 10px;
-        transition: transform .5s ease;
-      }
-      .btn :hover{
-        transform: scale(0.5);
-      }
+.conteiner{
+    width: 100%;
+    margin-top: 14rem;
+  }
+.menu{
+    min-width: 50px;
+    min-height: 50px;
+}
+.menu_principal{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    bottom: 0;
+    position: fixed;
+    justify-content: space-around;
+    width: 100%;
+}
+.btn{
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    transition:.5s ease;
+}
+.btn :hover{
+    transform: scale(0.5);
+}
+.menu a img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10%;
+}
