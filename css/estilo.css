@@ -57,3 +57,36 @@ list-style-type:none ;
 color: white;
 }
 
+html{
+  font-family: sans-serif;
+}
+.container{
+      display: flex;
+      flex-direction: column;
+      background-color: white;    
+}
+.box{
+      flex-direction: column;
+      align-items: center;
+}
+#biblioteca{
+
+}
+.banner{
+  width: 200px;
+  text-align: center;
+  padding: 10px;     
+  border-radius: 30px;
+  border: solid;
+}
+body{
+  background-color: white;
+  margin: 30px;
+}
+.intro{
+  width: 300px;
+}
+
+h3{
+  font-weight: bold;
+}
