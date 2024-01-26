@@ -1,4 +1,11 @@
 @media screen and (min-width:320px) and (max-width:576px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .conteudo_painel{
+        max-width: 100%;
+    }
     .menu_topo{
         width: 100%;
         position: fixed;
