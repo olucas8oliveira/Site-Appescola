@@ -1,77 +1,15 @@
-.menu-inicial{
-  margin:0 auto;
-  background-color:#000;
-  list-style:none;
-  display: flex;
-  width:100%;
-  justify-content:space-around;
-}  
-.menu-inicial li a{
-    color:white;
-    text-decoration: none;
-    padding: 10px 25px;
-    font-family: sans-serif;
-    margin: top 20px;
-    font-weight: bold;
-}
-.menu-inicial li{
-    padding:10px 25px;
-    margin-top:20px;
-    text-align:top;
-}
-.menu-inicial li a:hover{
-background-color:white;
-color:black;
-}
-
-table, th, td {
-  border: 1px solid;
-  text-align: center;
-}
-.resumo{
-display: flex;
-justify-content: center;
-}
-.tablePrincipal{
-background-color:#00BFFF;
-}
-.nq{
-color:red;
-text-align: center;
-}
-.rodape{
-background-color: #000;
- bottom: 0;
-        position: fixed;
-        width: 100%;
-        text-align: center;
-}
-.ft01 li a{
-text-decoration: none;
-color:white;
-}
-ul{
-list-style-type:none ;
-}
-.rd{
-color: white;
-}
-
 html{
   font-family: sans-serif;
-}
-.container{
-      display: flex;
-      flex-direction: column;
-      background-color: white;    
+  width: 576px;
 }
 .box{
-      flex-direction: column;
-      align-items: center;
+  flex-direction: column;
+  align-items: center;
+  width:226px;
+
 }
 #biblioteca{
-
-
+  width: 576px;
 }
 .banner{
   width: 200px;
@@ -84,10 +22,9 @@ body{
   background-color: white;
   margin: 30px;
 }
-.intro{
+.txt-intro{
   width: 300px;
 }
-
 h3{
   font-weight: bold;
 }
@@ -97,7 +34,7 @@ h3{
 
 .btn{
   background-color: #057231;
-  padding: 10px 25px;
+  padding: 10px 0;
   border-radius: 10px;
   color: #fff !important;
   text-decoration: none;
@@ -117,6 +54,10 @@ h3{
   color: #fff !important;
 }
 
-.container{
-
+.ctn-bic{
+  max-width: 576px !important;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
