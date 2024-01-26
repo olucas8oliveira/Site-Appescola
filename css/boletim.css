@@ -154,4 +154,6 @@ margin:0 auto;
         .slider > input:nth-child(4):checked ~ .slider-content{
             transform: translateX(-300%);
         }
-       
+       .carrosel{
+        margin-top:30px;
+       }
