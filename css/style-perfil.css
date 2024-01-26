@@ -6,7 +6,7 @@
         height: 1080px;
         font-family: HELVETICA;
     }
-    .menu_perfil{
+    .menu_topo{
         width: 100%;
         position: fixed;
         top: 0;
@@ -16,13 +16,13 @@
         border: 1px solid transparent;
         border-radius: 3px;
     }
-    .menu_perfil a img{
+    .menu_topo a img{
         width: 30px;
         margin-top: 12px;
         margin-left: 3px;
         margin-right: 3px;
     }
-    .conteudo-menu_perfil{
+    .conteudo-menu_topo{
         display: flex;
         flex-direction: center;
         justify-content: space-between;
