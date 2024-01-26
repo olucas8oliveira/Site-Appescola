@@ -60,6 +60,7 @@ margin:0 auto;
     }
     .Faltas{
         width: 20%;
+        padding-right:20px;
         
       
     }
@@ -138,6 +139,7 @@ margin:0 auto;
             flex: 0 0 auto;
             width: 100%;
             font-weight:bold;
+            margin:20px;
         }
         
         .slider > input:nth-child(1):checked ~ .slider-content{
