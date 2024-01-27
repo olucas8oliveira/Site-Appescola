@@ -194,9 +194,10 @@ body{
 }
 .banner-atividades{
     max-width: 576px;
+    margin: 10% auto 0;
 }
 .banner-atividades img{
-    width: 1920px;
+    width: 576px;
 }
 
 /* MOBILE */
