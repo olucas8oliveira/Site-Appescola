@@ -192,6 +192,12 @@ body{
 .background-login{
     width: 1920px;
 }
+.banner-atividades{
+    max-width: 576px;
+}
+.banner-atividades img{
+    width: 1920px;
+}
 
 /* MOBILE */
 @media screen and (min-width:320px) and (max-width:576px) {
