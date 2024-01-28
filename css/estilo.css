@@ -14,9 +14,6 @@ body{
   width: 226px;
   margin: 0 auto !important;
 }
-#biblioteca{
-
-}
 .banner{
   width: 200px;
   padding: 10px; 
@@ -35,32 +32,6 @@ body{
 h3{
   font-weight: bold;
 }
-
-
-/*  BOTÕES */
-
-.btn{
-  background-color: #057231;
-  padding: 10px 0;
-  border-radius: 7px;
-  color: #fff !important;
-  text-decoration: none;
-}
-
-.btn:hover{
-  background-color: goldenrod;
-  color: #057231 !important;
-}
-
-.btn-alter{
-  background-color: goldenrod !important;
-  color: #057231 !important;
-}
-.btn-alter:hover{
-  background-color: #057231 !important;
-  color: #fff !important;
-}
-
 .ctn-bic{
   max-width: 576px;
   height: 1080px;
