@@ -78,14 +78,14 @@ body{
     .thf{
         width: 100%;
         border-bottom: solid;
-        background-color:#AFEEEE;
+        background-color:#87CEEB;
 
        
     }
     .thf05{
         display: flex;
         justify-content: space-between;
-        background-color:#AFEEEE;
+        background-color:#87CEEB;
 
         
     }
