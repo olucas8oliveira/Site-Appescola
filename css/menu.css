@@ -14,7 +14,7 @@
         justify-content: space-between;
         background-color: #87CEEB;
         border: 1px solid transparent;
-        border-radius: 3px;
+        border-radius: 6px;
     }
     .menu_topo a img{
         width: 30px;
@@ -43,6 +43,7 @@
         position: fixed;
         justify-content: space-around;
         width: 100%;
+        border-radius: 6px;
     }
     .btn{
         text-decoration: none;
