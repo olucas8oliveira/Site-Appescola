@@ -3,43 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividades</title>
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/style-atividades.css">
+    <title>LOGIN APP ESCOLA</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-    <div class="menu_topo">
-        <div class="icone-voltar">
-            <a href="login.html"> <img src="imagens/icone-voltar.svg" alt="">
-            </a>
-        </div>
-        <div class="loc_link">
-            <h3> PAINEL
-            </h3>
-        </div>
-        <div class="conteudo-menu_topo">
-            <a href="erro.html"> <img src="imagens/icone-notificações.svg" alt="">
-            </a>
-        </div>
-    </div>
-    <div class="banner-atividades">
-        <img src="imagens/banner-informativo.png" alt="imagem da biblioteca">
-    </div>
-    <div class="button-atividades">
-        <a class="botao-boletim" href="Boletim.html"> <img src="imagens/boletim-online-rj.png" alt="imagem do boletim"> </a>
-        <a class="botao-biblioteca" href="biblioteca.html"> <img src="imagens/img-link-bic.png" alt="imagem da biblioteca"> </a>
-    </div>
-    <div class="conteiner">
-        <div class="menu_principal">
-            <div class="menu">
-                <a class="btn" href="atividades.html"><img src="imagens/home.svg" alt="home"></a>
+    <div id="backlogin">
+        <div class="container background-login">
+            <div id="todas-img" class="imagens-back">
+                <img class="selected" src="imagens/background-login.jpg" alt="imagem do backgorund">
+                <img class="imagem02" src="imagens/image02background.jpg" alt="imagem do backgorund">
+                <img class="imagem03" src="imagens/image03background.jpg" alt="imagem do backgorund">
             </div>
-            <div class="menu">
-                <a class="btn" href="biblioteca.html"><img src="imagens/atividade.png" alt="atividades"></a>
-            </div>
-            <div class="menu">
-                <a class="btn" href="perfil.html"><img src="imagens/perfil.svg" alt="perfil"></a>
+            <script src="script.js"></script>
+            <div class="td_boxlogin">
+                <div class="box-litle boxlogin">
+                    <div class="conteudo_login">
+                        <div class="td_center">
+                            <h4> SIGA - Sistema Integrado de Gestão Acadêmica
+                            </h4>
+                            <h4> Educandario Nome da Escola
+                            </h4>
+                            <p> Bem-Vindo!
+                            </p>
+                        </div>
+                        <div class="conteudo-usuario">
+                            <h5 class="txt-login"> Login
+                            </h5>
+                            <h6 class="mt_user"> Matrícula / CPF
+                            </h6>
+                            <div class="login">
+                                <input class="barraescrita-login" type="txt" name="login" autocomplete="username" placeholder="Digite sua matrícula ou CPF..." required id="id_matricula">
+                                    <div class="icone-barralogin">
+                                        <img src="imagens/icon-login.svg" alt="icone de perfil">
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="conteudo-password">
+                            <h6 class="pass_user"> Senha
+                            </h6>
+                            <div class="password">
+                                <input class="barraescrita-password" type="password" name="senha" placeholder="Digite sua senha..." required id="id_senha"> 
+                                    <div class="icone-barrapassword">
+                                        <img src="imagens/icon-password.png" alt="icone da senha">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="botoes">
+                        <a href="home.html" class="btn botaologin"> ENTRAR
+                        </a>
+                        <button onclick="" class="btn botaoesquecisenha"> ESQUECI MINHA SENHA
+                        </button>
+                        </div>
+                </div>
             </div>
         </div>
     </div>
