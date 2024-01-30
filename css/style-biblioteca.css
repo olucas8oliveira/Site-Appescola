@@ -69,6 +69,6 @@ padding-top: 10px;
   flex-direction: center;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto 10px !important;
+  margin: 0 auto 10px;
 }
 }

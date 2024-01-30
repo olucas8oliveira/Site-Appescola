@@ -7,6 +7,12 @@ body{
     margin:0 !important;
     font-family: HELVETICA;
     }
+    .slider-content{
+        padding-top: 0rem;
+    }
+    .slider{
+        padding-top: 4rem;
+    }
     .menu_perfil{
         min-width: 320px;
         width: 100%;
@@ -92,7 +98,8 @@ body{
     }
     .conteiner{
         width: 100%;
-        margin-top: 14rem;
+        margin: 0 !important;
+        padding-top: 2rem !important;
         margin-right: 20px;
       }
     .menu{
@@ -158,6 +165,3 @@ body{
         .slider > input:nth-child(4):checked ~ .slider-content{
             transform: translateX(-300%);
         }
-       .carrosel{
-        margin-top:30px;
-       }
