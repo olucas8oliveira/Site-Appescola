@@ -15,6 +15,7 @@
         background-color: #87CEEB;
         border: 1px solid transparent;
         border-radius: 6px;
+        font-weight: bold;
     }
     .menu_topo a img{
         width: 30px;

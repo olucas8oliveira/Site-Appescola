@@ -75,7 +75,7 @@
         display: flex;
     }
     .conteiner{
-        width: 100%;
+        max-width: 100%;
         margin-top: 14rem;
       }
     .menu{
@@ -84,7 +84,8 @@
     }
     .menu_principal{
         display: flex;
-        justify-content: space-between;
+        flex-direction: center;
+        align-items: center;
         background-color: #f0f0f0;
         bottom: 0;
         position: fixed;

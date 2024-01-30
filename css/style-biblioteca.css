@@ -1,11 +1,9 @@
 @media screen and (min-width:320px) and (max-width:576px){
-  
 html{
   font-family: helvetica;
 }
 body{
   padding: 0 !important;
-  margin: 0 !important;
 }
 .box{
   display: flex;
@@ -52,6 +50,13 @@ h3{
   margin: 0 auto !important;
   
 }
-
-
+.conteiner{
+  max-width: 100% !important;
+}
+.menu_principal{
+  width: 100%;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+}
 }
