@@ -125,6 +125,7 @@ body{
     }
         .slider{
             overflow: hidden;
+            margin: 15px;
         
         }
         .slider > .slider-content{
@@ -132,6 +133,7 @@ body{
             flex-wrap: nowrap;
             width: 100%;
             transition: all 500ms ease;
+            
         
         }
         
